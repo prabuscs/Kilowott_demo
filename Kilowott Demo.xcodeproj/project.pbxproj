@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55DDEEF226D7F2DC00A599FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEEF126D7F2DC00A599FE /* AppDelegate.swift */; };
+		55DDEEF426D7F2DC00A599FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEEF326D7F2DC00A599FE /* SceneDelegate.swift */; };
+		55DDEEF626D7F2DC00A599FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEEF526D7F2DC00A599FE /* ViewController.swift */; };
+		55DDEEF926D7F2DC00A599FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DDEEF726D7F2DC00A599FE /* Main.storyboard */; };
+		55DDEEFC26D7F2DC00A599FE /* Kilowott_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEEFA26D7F2DC00A599FE /* Kilowott_Demo.xcdatamodeld */; };
+		55DDEEFE26D7F2FA00A599FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DDEEFD26D7F2FA00A599FE /* Assets.xcassets */; };
+		55DDEF0126D7F2FA00A599FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DDEEFF26D7F2FA00A599FE /* LaunchScreen.storyboard */; };
+		55DDEF0C26D7F2FB00A599FE /* Kilowott_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEF0B26D7F2FB00A599FE /* Kilowott_DemoTests.swift */; };
+		55DDEF1726D7F2FC00A599FE /* Kilowott_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEF1626D7F2FC00A599FE /* Kilowott_DemoUITests.swift */; };
+		55DDEF2826D7F5F200A599FE /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEF2726D7F5F200A599FE /* AppConstant.swift */; };
+		55DDEF2D26D7F73500A599FE /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEF2C26D7F73500A599FE /* WebService.swift */; };
+		55DDEF3226D7F89E00A599FE /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEF3126D7F89E00A599FE /* ListModel.swift */; };
+		55DDEF3726D816ED00A599FE /* ListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEF3626D816ED00A599FE /* ListTableCell.swift */; };
+		55DDEF3C26D8173700A599FE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEF3B26D8173700A599FE /* Extensions.swift */; };
+		55DDEF4126D8182200A599FE /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEF4026D8182200A599FE /* ImageView.swift */; };
+		55DDEF4626D8194D00A599FE /* ReposListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDEF4526D8194D00A599FE /* ReposListVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55DDEF0826D7F2FB00A599FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DDEEE626D7F2DC00A599FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DDEEED26D7F2DC00A599FE;
+			remoteInfo = "Kilowott Demo";
+		};
+		55DDEF1326D7F2FC00A599FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DDEEE626D7F2DC00A599FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DDEEED26D7F2DC00A599FE;
+			remoteInfo = "Kilowott Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55DDEEEE26D7F2DC00A599FE /* Kilowott Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kilowott Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DDEEF126D7F2DC00A599FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55DDEEF326D7F2DC00A599FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55DDEEF526D7F2DC00A599FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55DDEEF826D7F2DC00A599FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55DDEEFB26D7F2DC00A599FE /* Kilowott_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kilowott_Demo.xcdatamodel; sourceTree = "<group>"; };
+		55DDEEFD26D7F2FA00A599FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55DDEF0026D7F2FA00A599FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55DDEF0226D7F2FA00A599FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DDEF0726D7F2FB00A599FE /* Kilowott DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kilowott DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DDEF0B26D7F2FB00A599FE /* Kilowott_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kilowott_DemoTests.swift; sourceTree = "<group>"; };
+		55DDEF0D26D7F2FB00A599FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DDEF1226D7F2FC00A599FE /* Kilowott DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kilowott DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DDEF1626D7F2FC00A599FE /* Kilowott_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kilowott_DemoUITests.swift; sourceTree = "<group>"; };
+		55DDEF1826D7F2FC00A599FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DDEF2726D7F5F200A599FE /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		55DDEF2C26D7F73500A599FE /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		55DDEF3126D7F89E00A599FE /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		55DDEF3626D816ED00A599FE /* ListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableCell.swift; sourceTree = "<group>"; };
+		55DDEF3B26D8173700A599FE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		55DDEF4026D8182200A599FE /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		55DDEF4526D8194D00A599FE /* ReposListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55DDEEEB26D7F2DC00A599FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DDEF0426D7F2FB00A599FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DDEF0F26D7F2FC00A599FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55DDEEE526D7F2DC00A599FE = {
+			isa = PBXGroup;
+			children = (
+				55DDEEF026D7F2DC00A599FE /* Kilowott Demo */,
+				55DDEF0A26D7F2FB00A599FE /* Kilowott DemoTests */,
+				55DDEF1526D7F2FC00A599FE /* Kilowott DemoUITests */,
+				55DDEEEF26D7F2DC00A599FE /* Products */,
+				5916BD26DB477EB4DBF2772A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		55DDEEEF26D7F2DC00A599FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DDEEEE26D7F2DC00A599FE /* Kilowott Demo.app */,
+				55DDEF0726D7F2FB00A599FE /* Kilowott DemoTests.xctest */,
+				55DDEF1226D7F2FC00A599FE /* Kilowott DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55DDEEF026D7F2DC00A599FE /* Kilowott Demo */ = {
+			isa = PBXGroup;
+			children = (
+				55DDEEF126D7F2DC00A599FE /* AppDelegate.swift */,
+				55DDEEF326D7F2DC00A599FE /* SceneDelegate.swift */,
+				55DDEF4A26D8286500A599FE /* Constants */,
+				55DDEF4B26D8287B00A599FE /* Controllers */,
+				55DDEF4F26D8288F00A599FE /* WebServices */,
+				55DDEF5026D828B000A599FE /* DataModel */,
+				55DDEF5626D8293300A599FE /* TabelCell */,
+				55DDEF5526D828EF00A599FE /* Extensions */,
+				55DDEF5126D828DC00A599FE /* CustomClass */,
+				55DDEEF726D7F2DC00A599FE /* Main.storyboard */,
+				55DDEEFD26D7F2FA00A599FE /* Assets.xcassets */,
+				55DDEEFF26D7F2FA00A599FE /* LaunchScreen.storyboard */,
+				55DDEF0226D7F2FA00A599FE /* Info.plist */,
+				55DDEEFA26D7F2DC00A599FE /* Kilowott_Demo.xcdatamodeld */,
+			);
+			path = "Kilowott Demo";
+			sourceTree = "<group>";
+		};
+		55DDEF0A26D7F2FB00A599FE /* Kilowott DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				55DDEF0B26D7F2FB00A599FE /* Kilowott_DemoTests.swift */,
+				55DDEF0D26D7F2FB00A599FE /* Info.plist */,
+			);
+			path = "Kilowott DemoTests";
+			sourceTree = "<group>";
+		};
+		55DDEF1526D7F2FC00A599FE /* Kilowott DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55DDEF1626D7F2FC00A599FE /* Kilowott_DemoUITests.swift */,
+				55DDEF1826D7F2FC00A599FE /* Info.plist */,
+			);
+			path = "Kilowott DemoUITests";
+			sourceTree = "<group>";
+		};
+		55DDEF4A26D8286500A599FE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				55DDEF2726D7F5F200A599FE /* AppConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		55DDEF4B26D8287B00A599FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55DDEEF526D7F2DC00A599FE /* ViewController.swift */,
+				55DDEF4526D8194D00A599FE /* ReposListVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		55DDEF4F26D8288F00A599FE /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				55DDEF2C26D7F73500A599FE /* WebService.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		55DDEF5026D828B000A599FE /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				55DDEF3126D7F89E00A599FE /* ListModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		55DDEF5126D828DC00A599FE /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				55DDEF4026D8182200A599FE /* ImageView.swift */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		55DDEF5526D828EF00A599FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				55DDEF3B26D8173700A599FE /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		55DDEF5626D8293300A599FE /* TabelCell */ = {
+			isa = PBXGroup;
+			children = (
+				55DDEF3626D816ED00A599FE /* ListTableCell.swift */,
+			);
+			path = "Tabel\U0010Cell";
+			sourceTree = "<group>";
+		};
+		5916BD26DB477EB4DBF2772A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55DDEEED26D7F2DC00A599FE /* Kilowott Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DDEF1B26D7F2FC00A599FE /* Build configuration list for PBXNativeTarget "Kilowott Demo" */;
+			buildPhases = (
+				55DDEEEA26D7F2DC00A599FE /* Sources */,
+				55DDEEEB26D7F2DC00A599FE /* Frameworks */,
+				55DDEEEC26D7F2DC00A599FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kilowott Demo";
+			productName = "Kilowott Demo";
+			productReference = 55DDEEEE26D7F2DC00A599FE /* Kilowott Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55DDEF0626D7F2FB00A599FE /* Kilowott DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DDEF1E26D7F2FC00A599FE /* Build configuration list for PBXNativeTarget "Kilowott DemoTests" */;
+			buildPhases = (
+				55DDEF0326D7F2FB00A599FE /* Sources */,
+				55DDEF0426D7F2FB00A599FE /* Frameworks */,
+				55DDEF0526D7F2FB00A599FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DDEF0926D7F2FB00A599FE /* PBXTargetDependency */,
+			);
+			name = "Kilowott DemoTests";
+			productName = "Kilowott DemoTests";
+			productReference = 55DDEF0726D7F2FB00A599FE /* Kilowott DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55DDEF1126D7F2FC00A599FE /* Kilowott DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DDEF2126D7F2FC00A599FE /* Build configuration list for PBXNativeTarget "Kilowott DemoUITests" */;
+			buildPhases = (
+				55DDEF0E26D7F2FC00A599FE /* Sources */,
+				55DDEF0F26D7F2FC00A599FE /* Frameworks */,
+				55DDEF1026D7F2FC00A599FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DDEF1426D7F2FC00A599FE /* PBXTargetDependency */,
+			);
+			name = "Kilowott DemoUITests";
+			productName = "Kilowott DemoUITests";
+			productReference = 55DDEF1226D7F2FC00A599FE /* Kilowott DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55DDEEE626D7F2DC00A599FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					55DDEEED26D7F2DC00A599FE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					55DDEF0626D7F2FB00A599FE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 55DDEEED26D7F2DC00A599FE;
+					};
+					55DDEF1126D7F2FC00A599FE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 55DDEEED26D7F2DC00A599FE;
+					};
+				};
+			};
+			buildConfigurationList = 55DDEEE926D7F2DC00A599FE /* Build configuration list for PBXProject "Kilowott Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55DDEEE526D7F2DC00A599FE;
+			productRefGroup = 55DDEEEF26D7F2DC00A599FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DDEEED26D7F2DC00A599FE /* Kilowott Demo */,
+				55DDEF0626D7F2FB00A599FE /* Kilowott DemoTests */,
+				55DDEF1126D7F2FC00A599FE /* Kilowott DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55DDEEEC26D7F2DC00A599FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DDEF0126D7F2FA00A599FE /* LaunchScreen.storyboard in Resources */,
+				55DDEEFE26D7F2FA00A599FE /* Assets.xcassets in Resources */,
+				55DDEEF926D7F2DC00A599FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DDEF0526D7F2FB00A599FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DDEF1026D7F2FC00A599FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55DDEEEA26D7F2DC00A599FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DDEF4626D8194D00A599FE /* ReposListVC.swift in Sources */,
+				55DDEF4126D8182200A599FE /* ImageView.swift in Sources */,
+				55DDEF2D26D7F73500A599FE /* WebService.swift in Sources */,
+				55DDEF3C26D8173700A599FE /* Extensions.swift in Sources */,
+				55DDEEF626D7F2DC00A599FE /* ViewController.swift in Sources */,
+				55DDEF3726D816ED00A599FE /* ListTableCell.swift in Sources */,
+				55DDEF2826D7F5F200A599FE /* AppConstant.swift in Sources */,
+				55DDEEF226D7F2DC00A599FE /* AppDelegate.swift in Sources */,
+				55DDEF3226D7F89E00A599FE /* ListModel.swift in Sources */,
+				55DDEEF426D7F2DC00A599FE /* SceneDelegate.swift in Sources */,
+				55DDEEFC26D7F2DC00A599FE /* Kilowott_Demo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DDEF0326D7F2FB00A599FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DDEF0C26D7F2FB00A599FE /* Kilowott_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DDEF0E26D7F2FC00A599FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DDEF1726D7F2FC00A599FE /* Kilowott_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55DDEF0926D7F2FB00A599FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DDEEED26D7F2DC00A599FE /* Kilowott Demo */;
+			targetProxy = 55DDEF0826D7F2FB00A599FE /* PBXContainerItemProxy */;
+		};
+		55DDEF1426D7F2FC00A599FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DDEEED26D7F2DC00A599FE /* Kilowott Demo */;
+			targetProxy = 55DDEF1326D7F2FC00A599FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55DDEEF726D7F2DC00A599FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DDEEF826D7F2DC00A599FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55DDEEFF26D7F2FA00A599FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DDEF0026D7F2FA00A599FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55DDEF1926D7F2FC00A599FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55DDEF1A26D7F2FC00A599FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DDEF1C26D7F2FC00A599FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kilowott Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kilowott-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55DDEF1D26D7F2FC00A599FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kilowott Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kilowott-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55DDEF1F26D7F2FC00A599FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kilowott DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kilowott-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kilowott Demo.app/Kilowott Demo";
+			};
+			name = Debug;
+		};
+		55DDEF2026D7F2FC00A599FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kilowott DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kilowott-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kilowott Demo.app/Kilowott Demo";
+			};
+			name = Release;
+		};
+		55DDEF2226D7F2FC00A599FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kilowott DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kilowott-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kilowott Demo";
+			};
+			name = Debug;
+		};
+		55DDEF2326D7F2FC00A599FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kilowott DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kilowott-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kilowott Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55DDEEE926D7F2DC00A599FE /* Build configuration list for PBXProject "Kilowott Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DDEF1926D7F2FC00A599FE /* Debug */,
+				55DDEF1A26D7F2FC00A599FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DDEF1B26D7F2FC00A599FE /* Build configuration list for PBXNativeTarget "Kilowott Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DDEF1C26D7F2FC00A599FE /* Debug */,
+				55DDEF1D26D7F2FC00A599FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DDEF1E26D7F2FC00A599FE /* Build configuration list for PBXNativeTarget "Kilowott DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DDEF1F26D7F2FC00A599FE /* Debug */,
+				55DDEF2026D7F2FC00A599FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DDEF2126D7F2FC00A599FE /* Build configuration list for PBXNativeTarget "Kilowott DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DDEF2226D7F2FC00A599FE /* Debug */,
+				55DDEF2326D7F2FC00A599FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		55DDEEFA26D7F2DC00A599FE /* Kilowott_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				55DDEEFB26D7F2DC00A599FE /* Kilowott_Demo.xcdatamodel */,
+			);
+			currentVersion = 55DDEEFB26D7F2DC00A599FE /* Kilowott_Demo.xcdatamodel */;
+			path = Kilowott_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 55DDEEE626D7F2DC00A599FE /* Project object */;
+}
